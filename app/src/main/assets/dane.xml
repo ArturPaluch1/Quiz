@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Quizy>
+    <Quiz nazwa="Java" id="0">
+        <pytanie value="Jak wywołać metodę w klasie podrzędnej z klasy nadrzędnej" >
+            <op1>"this.selfMethod()"</op1>
+            <op2>super.nameMethod()</op2>
+            <op3>self.nameMethod()</op3>
+            <op4>nie da się</op4>
+            <odp1>false</odp1>
+            <odp2>true</odp2>
+            <odp3>false</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+        <pytanie value="Jakiej metody nie zawiera klasa Object?" >
+            <op1>toString</op1>
+            <op2>toHashcode</op2>
+            <op3>equals</op3>
+            <op4>wait</op4>
+            <odp1>false</odp1>
+            <odp2>true</odp2>
+            <odp3>false</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+        <pytanie  value="A i E to klasy  B i D to interfejsy C to klasa abstrakcyjna" >
+            <op1>klasa F implementuje B{ }</op1>
+            <op2>class F implements B,C{ }</op2>
+            <op3>class F rozszerza E{ }</op3>
+            <op4>class F rozszerza E{ }</op4>
+            <odp1>true</odp1>
+            <odp2>false</odp2>
+            <odp3>false</odp3>
+            <odp4>true</odp4>
+        </pytanie>
+        <pytanie value="Który identyfikator jest nieprawidłowy" >
+            <op1>getSize</op1>
+            <op2>@name</op2>
+            <op3>$</op3>
+            <op4>1stName</op4>
+            <odp1>true</odp1>
+            <odp2>false</odp2>
+            <odp3>true</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+        <pytanie value="Klasa najwyższego poziomu może mieć ustawiony modyfikator dostępu: " >
+            <op1>package</op1>
+            <op2>protected</op2>
+            <op3>private</op3>
+            <op4>public</op4>
+            <odp1>false</odp1>
+            <odp2>false</odp2>
+            <odp3>false</odp3>
+            <odp4>true</odp4>
+        </pytanie>
+
+        <pytanie value="Zaznacz poprawną deklarację lub definicję tablicy" >
+            <op1>int[] []x[];</op1>
+            <op2>int x[5];</op2>
+            <op3>int *x;</op3>
+            <op4>żaden</op4>
+            <odp1>true</odp1>
+            <odp2>false</odp2>
+            <odp3>false</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+
+        <pytanie value="Co ma dostęp do prywatnych pól klasy" >
+            <op1>Tylko statyczne metody tej samej klasy</op1>
+            <op2>Tylko instancje tej samej klasy</op2>
+            <op3>Tylko metody zdefiniowane w tej klasie</op3>
+            <op4>Tylko klasy z tego samego pakietu</op4>
+            <odp1>false</odp1>
+            <odp2>false</odp2>
+            <odp3>true</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+
+        <pytanie value=" Które z poniższych są interfejsami w ramach kolekcji" >
+            <op1>Set</op1>
+            <op2>List</op2>
+            <op3>Array</op3>
+            <op4>Vector</op4>
+            <odp1>true</odp1>
+            <odp2>true</odp2>
+            <odp3>false</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+        <pytanie
+            value="Co powstanie po wywołaniu metody substring(2, 4) na stringu &quot; example&quot; "  >
+            <op1>"xa"</op1>
+            <op2>"am"</op2>
+            <op3>"xm"</op3>
+            <op4>"xamp"</op4>
+            <odp1>false</odp1>
+            <odp2>true</odp2>
+            <odp3>false</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+        <pytanie
+            value="Jak nazywa się interfejs kolekcji używany dla przechowywania nie  unikalnych elementów w odpowiedniej kolejności " >
+            <op1>Set</op1>
+            <op2>List</op2>
+            <op3>Map</op3>
+            <op4>SortedSet</op4>
+            <odp1>false</odp1>
+            <odp2>true</odp2>
+            <odp3>false</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+        <pytanie
+            value="Poprawne utworzenie konstruktora dla klasy Test to: (2 odpowiedzi)" >
+            <op1>Test() { }</op1>
+            <op2>Test(Test t) { }</op2>
+            <op3>test() { }</op3>
+            <op4>abstract Test() { }</op4>
+            <odp1>true</odp1>
+            <odp2>true</odp2>
+            <odp3>false</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+        <pytanie value="Dzięki której klasie można odczytać obiekt ze strumienia? " >
+            <op1>Reader</op1>
+            <op2>ObjectInputStream</op2>
+            <op3>ObjectReader</op3>
+            <op4>File</op4>
+            <odp1>false</odp1>
+            <odp2>true</odp2>
+            <odp3>false</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+        <pytanie
+            value="Która metoda zdefiniowana  klasie Integer pozwala przekonwertować obiekt Integer na typ int?" >
+            <op1>valueOf</op1>
+            <op2>intValue</op2>
+            <op3>getInt</op3>
+            <op4>getInteger</op4>
+            <odp1>false</odp1>
+            <odp2>true</odp2>
+            <odp3>false</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+        <pytanie value="Co jest prawdą o interfejsach? " >
+            <op1>Można stworzyć obiekt implementujący interfejs</op1>
+            <op2>Wszystkie typy modyfikatorów są dozwolone dla interfejsu</op2>
+            <op3>Tworzymy instncję interfejsu bezpośrednio</op3>
+            <op4>Można oznaczyć interfejs jako final</op4>
+            <odp1>true</odp1>
+            <odp2>false</odp2>
+            <odp3>false</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+        <pytanie value="Do czego używa się annotacji @Override? " >
+            <op1>Aby sprawdzić czy metoda podklasy nadpisuje metodę z klasy bazowej </op1>
+            <op2>Aby powiedzieć kompilatorowi żeby nie wykonywał tej przeładowanej metody</op2>
+            <op3>Aby powiedzieć kompilatorowi że ta metoda jest przestarzała</op3>
+            <op4>Nic z powyższych</op4>
+            <odp1>true</odp1>
+            <odp2>false</odp2>
+            <odp3>false</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+
+        <pytanie value="Co pozwala uzyskać dostęp do metody lub pola w klasie bazowej? " >
+            <op1>super</op1>
+            <op2>using</op2>
+            <op3>is_a</op3>
+            <op4>has_a </op4>
+            <odp1>true</odp1>
+            <odp2>false</odp2>
+            <odp3>false</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+        <pytanie value="Pętla typu foreach wygląda następująco:" >
+            <op1>for x in tablica :</op1>
+            <op2> for (int x : tablica) {}</op2>
+            <op3>foreach (int x in tabica){}</op3>
+            <op4>Nie ma takiej pętli w javie.</op4>
+            <odp1>false</odp1>
+            <odp2>true</odp2>
+            <odp3>false</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+
+
+    </Quiz>
+
+    <Quiz nazwa="Android" id="1">
+        <pytanie value=" Podstawowym elementem budowy interfejsu użytkownika w Androijdzie jest:" >
+            <op1>View</op1>
+            <op2>ContentProvider</op2>
+            <op3>ViewGroup</op3>
+            <op4>Layout</op4>
+            <odp1>true</odp1>
+            <odp2>false</odp2>
+            <odp3>false</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+        <pytanie value="...reprezentuje pojedynczy ekran interfejsu użytkownika ">
+
+            <op1>Content Provider</op1>
+            <op2>Service</op2>
+            <op3>Activity</op3>
+            <op4>Broadcast Reciver</op4>
+            <odp1>false</odp1>
+            <odp2>false</odp2>
+            <odp3>true</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+        <pytanie value=" Rdzennym elementem w AndroidManifest.xml jest: " >
+
+            <op1>application</op1>
+            <op2>manifest</op2>
+            <op3>activity</op3>
+            <op4>action</op4>
+            <odp1>false</odp1>
+            <odp2>true</odp2>
+            <odp3>false</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+
+        <pytanie value="Jaką ma nazwę klasa, która jest dziedziczona w celu budowy ekranu ?" >
+
+            <op1>ViewGroup</op1>
+            <op2>View</op2>
+            <op3>Activity</op3>
+            <op4>nic z tych rzeczy</op4>
+            <odp1>false</odp1>
+            <odp2>false</odp2>
+            <odp3>true</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+
+        <pytanie value="W którym katalogu przechowywane są pliki layoutu XML?" >
+
+            <op1>/assets</op1>
+            <op2>/src</op2>
+            <op3>/res/values</op3>
+            <op4>/res/layout</op4>
+            <odp1>false</odp1>
+            <odp2>false</odp2>
+            <odp3>false</odp3>
+            <odp4>true</odp4>
+        </pytanie>
+        <pytanie value="Co to jest Activity?" >
+
+            <op1>Tworzy okna aplikacji i uruchamia inne podstawowe komponenty</op1>
+            <op2>Zarządza zawartością aplikacji</op2>
+            <op3>Interfejs ekranu</op3>
+            <op4>Nic z powyższych</op4>
+            <odp1>true</odp1>
+            <odp2>false</odp2>
+            <odp3>false</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+        <pytanie value="Wskaż cykl życia activity." >
+
+            <op1>onCreate() −> onStart() −> onActivityStarted() −>
+                onResume() −> onPause() −> onStop() −> onActivityDistroy() −> onDestroy()
+            </op1>
+            <op2>OnCreate() −> onStart() −>onResume() −> onPause() −>
+                onStop() −> onRestart() −> onDestroy()
+            </op2>
+            <op3>OnCreate() −> onStart() −> onPause() −> onResume() −> onStop() −> onDestroy()</op3>
+            <op4>−>onResume()</op4>
+            <odp1>false</odp1>
+            <odp2>true</odp2>
+            <odp3>false</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+        <pytanie value="Jak zamknąć activity?" >
+
+            <op1>finish()</op1>
+            <op2>finishActivity(int requestCode)</op2>
+            <op3>A i B</op3>
+            <op4>kill()</op4>
+            <odp1>false</odp1>
+            <odp2>false</odp2>
+            <odp3>true</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+        <pytanie value="Jak przesłać dane między aktywnościami?" >
+
+            <op1>Intent</op1>
+            <op2>Content Provider</op2>
+            <op3>Broadcast receiver</op3>
+            <op4>Nic z tych rzeczy</op4>
+            <odp1>true</odp1>
+            <odp2>false</odp2>
+            <odp3>false</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+        <pytanie value="Czym jest Context?" >
+
+            <op1>Jest interfejsem do przechowywania globalnych informacji o aplikacji</op1>
+            <op2>Jest używany do tworzenia nowych komponentów</op2>
+            <op3>Android ma dwa konteksty: getContext() i getApplicationContext()</op3>
+            <op4>Wszystko co wyżej</op4>
+            <odp1>false</odp1>
+            <odp2>false</odp2>
+            <odp3>false</odp3>
+            <odp4>true</odp4>
+        </pytanie>
+        <pytanie value="Która metoda jest używana aby uzyskać dostęp do elementu view layoutu?" >
+
+            <op1>onCreate()</op1>
+            <op2>findViewById()</op2>
+            <op3>setContentView()</op3>
+            <op4>Nic z tych rzeczy</op4>
+            <odp1>false</odp1>
+            <odp2>true</odp2>
+            <odp3>false</odp3>
+            <odp4>false</odp4>
+        </pytanie>
+
+
+
+    </Quiz>
+</Quizy>

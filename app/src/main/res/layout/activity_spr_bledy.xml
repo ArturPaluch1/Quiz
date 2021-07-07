@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sprBl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:addStatesFromChildren="false"
+    android:background="#FFC832"
+    android:clipChildren="true"
+    android:clipToPadding="false"
+    android:duplicateParentState="false"
+    tools:context=".SprBledy">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-11dp"
+        tools:layout_editor_absoluteY="-5dp">
+
+        <Button
+
+            android:id="@+id/Menu"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:background="#FF5722"
+            android:text="Do menu"
+            android:textColor="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/buttonL"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:text="P\no\np\nr\nz\ne\nd\nn\ni\ne" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+                android:orientation="vertical">
+
+
+                <TextView
+
+                    android:id="@+id/pytanie"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+
+                    android:background="#FFC832"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:textColor="#000000"
+                    android:autoSizeMaxTextSize="20sp"
+                    android:textStyle="bold" />
+                <TextView
+
+                    android:id="@+id/nrPytania"
+                    android:layout_width="match_parent"
+                   android:layout_height="23dp"
+                    android:background="#FFC832"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:textColor="#000000"
+                    android:text="nr pytania"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1000"
+
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="500"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/twojeOdp"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#FF8222"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="Twoje odpowiedzi"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <Button
+                                android:textAllCaps="false"
+                                android:id="@+id/opcja1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="10"
+                                android:background="@drawable/kafelek"
+                                android:textSize="8sp"
+android:layout_marginBottom="2dp"
+                                android:layout_marginRight="1dp"
+
+                                />
+
+                            <Button
+                                android:textAllCaps="false"
+                                android:id="@+id/opcja2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="10"
+                                android:background="@drawable/kafelek"
+                                android:textSize="8sp"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginRight="1dp"
+                                />
+
+                            <Button
+                                android:textAllCaps="false"
+                                android:id="@+id/opcja3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="10"
+                                android:background="@drawable/kafelek"
+                                android:textSize="8sp"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginRight="1dp"
+                                />
+
+                            <Button
+                                android:textAllCaps="false"
+                                android:id="@+id/opcja4"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textSize="8sp"
+                                android:layout_weight="10"
+                                android:background="@drawable/kafelek"
+
+                                android:layout_marginRight="1dp"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="500"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/prawidloweOdp"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#FF8222"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="Prawidłowe odpowiedzi"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <Button
+                                android:textAllCaps="false"
+                                android:id="@+id/opcja11"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="10"
+                                android:background="@drawable/kafelek"
+                                android:textSize="8sp"
+                                android:maxHeight="25sp"
+
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginLeft="1dp"
+                                />
+
+                            <Button
+                                android:textAllCaps="false"
+                                android:id="@+id/opcja22"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="10"
+                                android:background="@drawable/kafelek"
+                                android:textSize="8sp"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginLeft="1dp"
+                                />
+
+                            <Button
+                                android:textAllCaps="false"
+                                android:id="@+id/opcja33"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="10"
+                                android:background="@drawable/kafelek"
+                                android:textSize="8sp"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginLeft="1dp"
+                                />
+
+                            <Button
+                                android:textAllCaps="false"
+                                android:id="@+id/opcja44"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textSize="8sp"
+                                android:layout_weight="10"
+                                android:background="@drawable/kafelek"
+                              
+                                android:layout_marginLeft="1dp"
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonP"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:alpha="50"
+                android:background="@color/colorAccent"
+                android:text="N\na\ns\nt\nę\np\nn\ne" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

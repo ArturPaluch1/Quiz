@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC832"
+    tools:context=".quiz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#FFC832"
+
+        >
+
+        <Button
+            android:layout_marginRight="4dp"
+            android:id="@+id/buttonL"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="P\no\np\nr\nz\ne\nd\nn\ni\ne"
+            android:background="@color/colorAccent" />
+
+        <LinearLayout
+            android:layout_weight="1000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#FFC832"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:id="@+id/numerPytania"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="10"
+                    android:background="#FFC832"
+
+                    android:text="Pytanie 14/17"
+                    android:textColor="#000000"
+                    android:textSize="12dp" />
+
+                <TextView
+
+                    android:id="@+id/czas"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="10"
+                    android:background="#FFC832"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="5:10"
+                    android:textColor="#000000"
+                    android:textSize="12dp" />
+
+
+            </LinearLayout>
+
+
+    <TextView
+
+        android:id="@+id/pytanie"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:autoSizeMaxTextSize="20dp"
+        android:background="#FFC832"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:textAllCaps="false"
+                    android:id="@+id/opcja1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:background="@drawable/kafelek"
+                    android:textSize="10sp"
+                    android:layout_marginBottom="2dp"
+                   />
+
+                <Button
+                    android:textAllCaps="false"
+                    android:id="@+id/opcja2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:background="@drawable/kafelek"
+                    android:textSize="10sp"
+                    android:layout_marginBottom="2dp"
+                 />
+
+                <Button
+                    android:textAllCaps="false"
+                    android:id="@+id/opcja3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:background="@drawable/kafelek"
+                    android:textSize="10sp"
+                    android:layout_marginBottom="2dp"
+                  />
+
+                <Button
+                    android:textAllCaps="false"
+                    android:id="@+id/opcja4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp"
+                    android:layout_weight="10"
+                    android:background="@drawable/kafelek"
+                     />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginLeft="4dp"
+            android:id="@+id/buttonP"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="N\na\ns\nt\nę\np\nn\ne" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
