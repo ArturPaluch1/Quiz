@@ -5,14 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFC832"
+
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:fitsSystemWindows="true"
         tools:layout_editor_absoluteX="-11dp"
-
         tools:layout_editor_absoluteY="-5dp">
 
         <Button

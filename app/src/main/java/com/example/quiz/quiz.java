@@ -1,5 +1,7 @@
 package com.example.quiz;
 
+
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -274,6 +276,8 @@ Integer sekundy=c%60;
     public void onClick(View v) {
         TextView twPytanie = findViewById(R.id.pytanie);
         List<String> bb = new ArrayList<String>();
+
+
         switch (v.getId()) {
             case R.id.buttonP:
                 //naciśnięty przycisk następny , jest w quizie jeszcze pytanie

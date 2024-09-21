@@ -1,5 +1,6 @@
 package com.example.quiz;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -28,6 +29,7 @@ public class Podsumowanie extends AppCompatActivity implements OnClickListener {
     Pytanie pytanie = null;
     int nrQuizu;
 
+    @SuppressLint("SuspiciousIndentation")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
